@@ -145,6 +145,7 @@ input:focus{border-color:var(--accent);background:rgba(62,207,142,0.06)}
 .ipanel-footer{padding:10px 12px;border-top:1px solid var(--border);display:flex;gap:8px;justify-content:flex-end;background:rgba(0,0,0,0.15)}
 #icons-panel{display:none}
 .icons-mgr-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(80px,1fr));gap:12px;margin-top:16px}
+.icons-mgr-grid .empty{grid-column:1/-1;writing-mode:horizontal-tb}
 .icon-card{display:flex;flex-direction:column;align-items:center;gap:6px;padding:10px 8px;background:var(--glass);border:1px solid var(--border);border-radius:var(--radius-sm);position:relative;transition:all .15s;}
 .icon-card:hover{background:var(--glass-hover);border-color:var(--border2)}
 .icon-card img{width:38px;height:38px;object-fit:contain;border-radius:6px}
@@ -851,7 +852,15 @@ async function deleteIcon(name, sha){
   if(!confirm(`确定删除图标「${name}」？\n（已使用该图标的链接将回退到自动获取）`)) return;
   try{
     await delFile(`${ICONS_DIR}/${name}`, sha, `delete icon: ${name}`);
-    toast('✅ 已删除：' + name);
+    // 清理 linksData 中所有引用该图标的条目，回退到自动获取
+    let affected = 0;
+    linksData.forEach(sec => sec.items.forEach(it => {
+      if(it.icon && it.icon.replace(/^.*\/([^/]+)$/,'$1') === name){
+        it.icon = ''; affected++;
+      }
+    }));
+    if(affected){ setDirty(); renderSection(currentSec); }
+    toast('✅ 已删除：' + name + (affected ? `，${affected} 条链接已回退到自动获取` : ''));
     await loadIcons();
     renderIconsGrid();
   } catch(e){
