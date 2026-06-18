@@ -928,6 +928,7 @@ async function doSingleIconUpload(file){
     await putBinary(`${ICONS_DIR}/${file.name}`,bytes,sha,`upload icon: ${file.name}`);
     bar.style.width='100%';
     await loadIcons();
+    renderIconsGrid();
     pickerPendingIcon=ICONS_PREFIX+file.name;
     toast('✅ 上传成功，已自动选中');
     switchITab('pick');
@@ -953,6 +954,18 @@ function confirmIcon(){
   }
 }
 
+async function deleteIcon(name, sha){
+  if(!confirm(`确定删除图标「${name}」？\n（已使用该图标的链接将回退到自动获取）`)) return;
+  try{
+    await delFile(`${ICONS_DIR}/${name}`, sha, `delete icon: ${name}`);
+    toast('✅ 已删除：' + name);
+    await loadIcons();
+    renderIconsGrid();
+  } catch(e){
+    toast('删除失败：' + e.message, 'err');
+  }
+}
+  
 function renderIconsGrid(){
   const g=document.getElementById('icons-grid');
   if(!g)return;
@@ -989,6 +1002,7 @@ async function uploadIconFiles(files){
       bar.style.width=((done+fail)/files.length*100)+'%';
       // 每上传成功一个就立刻刷新，让用户看到实时进度
       await loadIcons();
+      renderIconsGrid();
     }catch(e){
       fail++;
       toast('上传 '+file.name+' 失败：'+e.message,'err');
