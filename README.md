@@ -69,15 +69,6 @@
   
 * `intranet`（可选）：若有内外网切换需求，则在下方加一行，【"intranet": "输入你的内网网址",】
 * `icon`（可选）：若有自定义图标需求，则在下方加一行，【"icon": "路径/图标名称",】
-  【例】
-      {
-        "title": "哔哩哔哩",
-        "url": "https://www.bilibili.com/",
-        "desc": "视频、动漫、弹幕",
-        "data-desc": "视频弹幕网站，涵盖动漫、学习与娱乐，B站、b站",
-        "icon": "icons/logos/哔哩哔哩-copy.svg",
-        "intranet": "https://www.bilibili.com/anime"
-      },
   
  编辑 `main.js`：（可选）
  
