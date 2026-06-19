@@ -824,8 +824,13 @@ async function doSingleIconUpload(file){
     await loadIcons();
     renderIconsGrid();
     pickerPendingIcon=ICONS_PREFIX+file.name;
-    toast('✅ 上传成功，已自动选中');
-    switchITab('pick');
+toast('✅ 上传成功，已自动选中');
+switchITab('pick');
+// 新图标固定排在列表末尾（iconsData.push），自动跳转后默认在不可见区域，
+// 需要手动滚动到选中项才能让用户立即看到刚才传的是哪个图标。
+requestAnimationFrame(()=>{
+  document.querySelector('.icon-opt.sel')?.scrollIntoView({block:'center',behavior:'smooth'});
+});
   }catch(err){
     toast('上传失败：'+err.message,'err');
     prog.style.display='none';
