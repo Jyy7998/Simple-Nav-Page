@@ -169,13 +169,11 @@ Worker 会代理以下资源：
 
 ## 📸 示例
 
-👉 https://xmynscnq.github.io/Simple-Nav-Page
-
-主页
+主页👉 https://xmynscnq.github.io/Simple-Nav-Page
 
 <img width="1920" height="919" alt="王五导航 (04 05 2026 09_29)" src="https://github.com/user-attachments/assets/36f545b3-b3f6-4b26-9038-f27df15476ef" />
 
-后台
+后台👉https://xmynscnq.github.io/Simple-Nav-Page/admin
 
 <img width="1920" height="919" alt="导航编辑器 (18 06 2026 21_38)" src="https://github.com/user-attachments/assets/69f09854-930c-4e67-9f33-7fff01258f70" />
 
