@@ -1,4 +1,4 @@
-🔄 Language / Language: [简体中文](README.md) | **English**
+🔄 Language / 语言：**简体中文** | [English](README.en.md)
 
 # 🌐 Simple Nav Page
 
