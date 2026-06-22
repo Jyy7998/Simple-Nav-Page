@@ -404,6 +404,19 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   injectNetToggleBtn();
   updateNetToggleBtn();
+  // ── 白天 / 夜间模式 ────────────────────────────────────────
+const themeBtn = document.getElementById('themeToggleBtn');
+const savedTheme = localStorage.getItem('theme');
+if (savedTheme === 'night') {
+  document.body.classList.add('night-mode');
+  themeBtn.textContent = '🌙';
+}
+
+themeBtn.addEventListener('click', () => {
+  const isNight = document.body.classList.toggle('night-mode');
+  themeBtn.textContent = isNight ? '🌙' : '☀️';
+  localStorage.setItem('theme', isNight ? 'night' : 'day');
+});
 
   // 引擎触发器点击
   document.getElementById('engineTrigger').addEventListener('click', () => {
