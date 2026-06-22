@@ -14,7 +14,7 @@ A **low-barrier personal navigation page template** that requires no server setu
 
 * 🎯 **Beginner-friendly**: No frontend experience required
 
-* 🌙 **Lightweight and clean UI**: Focused on usability and simplicity
+* ✅ **Lightweight and clean UI**: Focused on usability and simplicity
 
 * 📱 **Responsive layout**: Works across mobile, tablet, and desktop
 
@@ -27,6 +27,8 @@ A **low-barrier personal navigation page template** that requires no server setu
 * 🌄 **Random background images**: Background changes on each refresh
 
 * 🌐 **Switch between public and intranet URLs**: External network by default, switch with one click
+
+* 🌙 **Night Mode**: Easily switch between light and dark modes using the icon next to the title
 
 * 💻 **Visual admin panel**: Add and manage websites visually
 
