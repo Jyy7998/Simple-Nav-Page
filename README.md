@@ -34,6 +34,19 @@
 
 ---
 
+## 📸 示例
+
+主页👉 https://xmynscnq.github.io/Simple-Nav-Page
+
+<img width="1920" height="919" alt="image" src="https://github.com/user-attachments/assets/90096ebe-3693-4178-b81c-4866a518215d" />
+
+后台👉https://xmynscnq.github.io/Simple-Nav-Page/admin
+
+<img width="1920" height="919" alt="导航编辑器 (18 06 2026 21_38)" src="https://github.com/user-attachments/assets/69f09854-930c-4e67-9f33-7fff01258f70" />
+
+
+---
+
 ## 🧑‍💻 适合人群
 
 * 想要一个属于自己的导航页
@@ -177,18 +190,9 @@ token就是一个有权限读写你所授权的仓库的钥匙，从而实现在
 
 ---
 
-## 📸 示例
+## 📸 示例：移动端/夜间模式
+<img width="375" height="667" alt="王五导航 (24 06 2026 17_28)" src="https://github.com/user-attachments/assets/20fccdfb-1535-41cd-b017-80ba0c3caab1" />
 
-主页👉 https://xmynscnq.github.io/Simple-Nav-Page
-
-<img width="1920" height="919" alt="王五导航 (04 05 2026 09_29)" src="https://github.com/user-attachments/assets/36f545b3-b3f6-4b26-9038-f27df15476ef" />
-
-后台👉https://xmynscnq.github.io/Simple-Nav-Page/admin
-
-<img width="1920" height="919" alt="导航编辑器 (18 06 2026 21_38)" src="https://github.com/user-attachments/assets/69f09854-930c-4e67-9f33-7fff01258f70" />
-
-
----
 
 ## 📄 开源协议
 
