@@ -57,6 +57,68 @@
     ]
   },
   {
+    "section": "计算机维护常用",
+    "items": [
+      {
+        "title": "FirPE 系统维护",
+        "url": "https://firpe.cn/",
+        "desc": "FirPE 系统维护",
+        "data-desc": "PE",
+        "intranet": "https://firpe.cn/"
+      },
+      {
+        "title": "图吧工具箱",
+        "url": "https://tb.saop.cc/downloads/",
+        "desc": "图吧工具箱",
+        "data-desc": "图吧",
+        "icon": "icons/logos/tb.png",
+        "intranet": "https://tb.saop.cc/downloads/"
+      },
+      {
+        "title": "驱动总裁",
+        "url": "https://www.sysceo.com/dc",
+        "desc": "驱动总裁",
+        "data-desc": "驱动",
+        "intranet": "https://www.sysceo.com/dc"
+      },
+      {
+        "title": "Todesk远程工具",
+        "url": "https://www.todesk.com/download.html",
+        "desc": "Todesk远程工具",
+        "data-desc": "远程",
+        "intranet": "https://www.todesk.com/download.html"
+      },
+      {
+        "title": "HEU_KMS_Activator激活工具",
+        "url": "https://github.com/zbezj/heu_kms_activator/releases",
+        "desc": "微软激活工具",
+        "data-desc": "激活",
+        "intranet": "https://github.com/zbezj/heu_kms_activator/releases"
+      },
+      {
+        "title": "Windows与offfice中文镜像下载站",
+        "url": "https://www.xitongku.com/",
+        "desc": "微软中文镜像下载站",
+        "data-desc": "系统",
+        "intranet": "https://www.xitongku.com/"
+      },
+      {
+        "title": "Windows11多语言官方下载",
+        "url": "https://www.microsoft.com/zh-cn/software-download/windows11",
+        "desc": "Windows11官方下载",
+        "data-desc": "系统",
+        "intranet": "https://www.microsoft.com/zh-cn/software-download/windows11"
+      },
+      {
+        "title": "Windows10多语言官方下载",
+        "url": "https://www.microsoft.com/en-au/software-download/windows10",
+        "desc": "Windows10官方下载",
+        "data-desc": "系统",
+        "intranet": "https://www.microsoft.com/en-au/software-download/windows10"
+      }
+    ]
+  },
+  {
     "section": "AI",
     "items": [
       {
