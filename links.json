@@ -25,16 +25,10 @@
         "intranet": "测试"
       },
       {
-        "title": "哔哩哔哩",
-        "url": "https://www.bilibili.com/",
-        "desc": "视频、动漫、弹幕",
-        "data-desc": "视频弹幕网站，涵盖动漫、学习与娱乐，B站、b站"
-      },
-      {
-        "title": "知乎",
-        "url": "https://www.zhihu.com/",
-        "desc": "中文问答社区",
-        "data-desc": "中文互联网最大问答社区，知识分享与讨论平台"
+        "title": "Deepseek",
+        "url": "https://www.deepseek.com/",
+        "desc": "deepseek AI助手",
+        "data-desc": "deepseek语言大模型"
       },
       {
         "title": "Notion",
@@ -53,6 +47,12 @@
         "url": "https://chatgpt.com/",
         "desc": "OpenAI AI助手",
         "data-desc": "OpenAI 旗下 AI 对话助手，GPT-4，强大通用大模型"
+      },
+      {
+        "title": "哔哩哔哩",
+        "url": "https://www.bilibili.com/",
+        "desc": "视频、动漫、弹幕",
+        "data-desc": "视频弹幕网站，涵盖动漫、学习与娱乐，B站、b站"
       }
     ]
   },
