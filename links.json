@@ -96,7 +96,7 @@
         "intranet": "https://github.com/zbezj/heu_kms_activator/releases"
       },
       {
-        "title": "Windows与offfice中文镜像下载站",
+        "title": "Windows中文镜像下载站",
         "url": "https://www.xitongku.com/",
         "desc": "微软中文镜像下载站",
         "data-desc": "系统",
@@ -115,6 +115,13 @@
         "desc": "Windows10官方下载",
         "data-desc": "系统",
         "intranet": "https://www.microsoft.com/en-au/software-download/windows10"
+      },
+      {
+        "title": "offfice中文下载站",
+        "url": "https://www.xitongku.com/office.html",
+        "desc": "offfice中文下载站",
+        "data-desc": "办公",
+        "intranet": "https://www.xitongku.com/office.html"
       }
     ]
   },
