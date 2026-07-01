@@ -3,6 +3,20 @@
     "section": "常用",
     "items": [
       {
+        "title": "JyyBLOG主页",
+        "url": "https://jyy7998.tk",
+        "desc": "个人主页",
+        "data-desc": "Jyy个人主页",
+        "icon": "icons/logos/favicon.png"
+      },
+      {
+        "title": "私人影视站",
+        "url": "https://tv.jyy7998.tk/",
+        "desc": "私人影院",
+        "data-desc": "专注效率与数字生活方式的中文媒体，App推荐、科技资讯",
+        "icon": "icons/logos/微信图片_2026-07-01_232042_808.jpg"
+      },
+      {
         "title": "GitHub",
         "url": "https://github.com/dashboard",
         "desc": "代码托管、开源协作",
@@ -23,16 +37,10 @@
         "data-desc": "中文互联网最大问答社区，知识分享与讨论平台"
       },
       {
-        "title": "少数派",
-        "url": "https://sspai.com/",
-        "desc": "数字生活方式媒体",
-        "data-desc": "专注效率与数字生活方式的中文媒体，App推荐、科技资讯"
-      },
-      {
         "title": "Notion",
         "url": "https://notion.so/",
         "desc": "笔记、项目管理",
-        "data-desc": "全能笔记与项目管理工具，支持数据库、文档、任务看板"
+        "data-desc": "视频"
       },
       {
         "title": "Claude",
@@ -45,13 +53,6 @@
         "url": "https://chatgpt.com/",
         "desc": "OpenAI AI助手",
         "data-desc": "OpenAI 旗下 AI 对话助手，GPT-4，强大通用大模型"
-      },
-      {
-        "title": "王五主页",
-        "url": "https://wwzy.ccwu.cc/jianjie",
-        "desc": "个人主页",
-        "data-desc": "王五的个人主页",
-        "icon": "icons/logos/favicon.png"
       }
     ]
   },
