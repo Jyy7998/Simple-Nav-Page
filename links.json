@@ -3,17 +3,24 @@
     "section": "常用",
     "items": [
       {
-        "title": "JyyBLOG主页",
+        "title": "Jyy主页",
         "url": "https://jyy7998.tk",
         "desc": "个人主页",
         "data-desc": "Jyy个人主页",
-        "icon": "icons/logos/favicon.png"
+        "icon": "icons/logos/微信图片_2026-07-01_232042_808.jpg"
       },
       {
         "title": "私人影视站",
         "url": "https://tv.jyy7998.tk/",
         "desc": "私人影院",
         "data-desc": "专注效率与数字生活方式的中文媒体，App推荐、科技资讯",
+        "icon": "icons/logos/微信图片_2026-07-01_232042_808.jpg"
+      },
+      {
+        "title": "私人音乐站",
+        "url": "https://mp3.jyy7998.tk/",
+        "desc": "私人音乐",
+        "data-desc": "音乐",
         "icon": "icons/logos/微信图片_2026-07-01_232042_808.jpg"
       },
       {
