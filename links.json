@@ -144,6 +144,12 @@
         "desc": "Ubuntu26官方下载",
         "data-desc": "乌班图",
         "intranet": "https://ubuntu.com/download/desktop/thank-you?version=26.04&architecture=amd64&lts=true"
+      },
+      {
+        "title": "统信OS 官方下载",
+        "url": "https://www.chinauos.com",
+        "desc": "UOS官方下载",
+        "data-desc": "UOS"
       }
     ]
   },
