@@ -106,7 +106,16 @@
         "url": "https://1207.lanzoue.com/iO1Qs3w2uluj",
         "desc": "一键统管",
         "data-desc": "系统",
-        "icon": "icons/logos/rr.png"
+        "icon": "icons/logos/rr.png",
+        "intranet": "https://1207.lanzoue.com/iO1Qs3w2uluj"
+      },
+      {
+        "title": "WinRAR7.10",
+        "url": "https://1207.lanzoue.com/i2o2Q41012yd",
+        "desc": "解压工具",
+        "data-desc": "软件",
+        "icon": "icons/logos/rar.jpg",
+        "intranet": "https://1207.lanzoue.com/i2o2Q41012yd"
       },
       {
         "title": "Windows中文镜像下载站",
@@ -156,7 +165,8 @@
         "title": "统信OS 官方下载",
         "url": "https://www.chinauos.com/resource/download-professional",
         "desc": "UOS官方下载",
-        "data-desc": "UOS"
+        "data-desc": "UOS",
+        "intranet": "https://www.chinauos.com/resource/download-professional"
       }
     ]
   },
