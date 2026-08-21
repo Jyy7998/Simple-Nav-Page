@@ -169,6 +169,14 @@
         "desc": "UOS官方下载",
         "data-desc": "UOS",
         "intranet": "https://www.chinauos.com/resource/download-professional"
+      },
+      {
+        "title": "VPN工具",
+        "url": "https://1207.lanzoue.com/b0mcr8f3i ",
+        "desc": "VPN工具",
+        "data-desc": "VPN",
+        "icon": "icons/logos/ScreenShot_2026-08-21_124907_034.jpg",
+        "intranet": "https://1207.lanzoue.com/b0mcr8f3i "
       }
     ]
   },
