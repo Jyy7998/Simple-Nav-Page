@@ -76,10 +76,10 @@
       },
       {
         "title": "驱动总裁",
-        "url": "https://www.sysceo.com/dc",
+        "url": "https://1207.lanzoue.com/iRtlu48djeba",
         "desc": "驱动总裁",
         "data-desc": "驱动",
-        "intranet": "https://www.sysceo.com/dc"
+        "intranet": "https://1207.lanzoue.com/iRtlu48djeba"
       },
       {
         "title": "Todesk远程工具",
@@ -178,6 +178,11 @@
         "desc": "UOS官方下载",
         "data-desc": "UOS",
         "intranet": "https://www.chinauos.com/resource/download-professional"
+      },
+      {
+        "title": "",
+        "url": "",
+        "desc": ""
       }
     ]
   },
