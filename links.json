@@ -122,6 +122,13 @@
         "intranet": "https://1207.lanzoue.com/i2o2Q41012yd"
       },
       {
+        "title": "盛千电脑管家",
+        "url": "https://1207.lanzoue.com/iaeSb48dlj0b",
+        "desc": "电脑管家",
+        "icon": "icons/logos/ODF.png",
+        "intranet": "https://1207.lanzoue.com/iaeSb48dlj0b"
+      },
+      {
         "title": "VPN工具",
         "url": "https://1207.lanzoue.com/b0mcr8f3i ",
         "desc": "VPN工具",
@@ -179,12 +186,6 @@
         "desc": "UOS官方下载",
         "data-desc": "UOS",
         "intranet": "https://www.chinauos.com/resource/download-professional"
-      },
-      {
-        "title": "盛千电脑管家",
-        "url": "https://1207.lanzoue.com/iaeSb48dlj0b",
-        "desc": "电脑管家",
-        "intranet": "https://1207.lanzoue.com/iaeSb48dlj0b"
       }
     ]
   },
