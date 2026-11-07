@@ -196,6 +196,41 @@
         "data-desc": "UOS",
         "icon": "icons/logos/ODF (2).png",
         "intranet": "https://www.chinauos.com/resource/download-professional"
+      },
+      {
+        "title": "华硕官网驱动",
+        "url": "https://rog.asus.com.cn/support/download-center/",
+        "desc": "华硕官网驱动",
+        "data-desc": "华硕",
+        "intranet": "https://rog.asus.com.cn/support/download-center/"
+      },
+      {
+        "title": "技嘉官网驱动",
+        "url": "https://www.gigabyte.cn/Support/Consumer/Download",
+        "desc": "技嘉官网驱动",
+        "data-desc": "技嘉",
+        "intranet": "https://www.gigabyte.cn/Support/Consumer/Download"
+      },
+      {
+        "title": "微星官网驱动",
+        "url": "https://www.msi.cn/search/",
+        "desc": "微星官网驱动",
+        "data-desc": "微星",
+        "intranet": "https://www.msi.cn/search/"
+      },
+      {
+        "title": "七彩虹官网驱动",
+        "url": "https://www.colorful.cn/home/download",
+        "desc": "七彩虹官网驱动",
+        "data-desc": "七彩虹",
+        "intranet": "https://www.colorful.cn/home/download"
+      },
+      {
+        "title": "VMAX机箱副屏",
+        "url": "https://theme.hlinel.com/?download/vmax",
+        "desc": "VMAX机箱副屏",
+        "data-desc": "VMAX",
+        "intranet": "https://theme.hlinel.com/?download/vmax"
       }
     ]
   },
