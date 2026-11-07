@@ -231,6 +231,13 @@
         "desc": "VMAX机箱副屏",
         "data-desc": "VMAX",
         "intranet": "https://theme.hlinel.com/?download/vmax"
+      },
+      {
+        "title": "瓦尔基里（VK）",
+        "url": "https://www.valkyrie.com.cn/",
+        "desc": "瓦尔基里（VK）",
+        "data-desc": "瓦尔基里（VK）",
+        "intranet": "https://www.valkyrie.com.cn/"
       }
     ]
   },
